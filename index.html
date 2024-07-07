@@ -1,18 +1,3 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -21,28 +6,108 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <title>Justino puslapis</title>
  </head>
  <body>
-<h1>Laikas tapti programuotoju</h1>
-<h2>Pirmas etapas - bandomojo puslapio kūrimas!</h2>
-<hr>
-<h3>Apžiūrėkime ką iki šiol jau sūkuriau, tikėtis daug neverta. Tai tik vienos dienos mokslo rezultatas. </h3>
-<hr>
-<ul>
-    <li>
-        <a href="./public/movie-ranking.html">Pirmasis bandymas, mėgstamiausi filmai</a>
-    </li>
-    <p>Paspaudę nuorodą aukščiau pateksite ir paveiksliuke matomą puslapį</p>
-<a href="./public/movie-ranking.html">
-    <img src="./assets/images/Filmai.png" height="150">
-</a>
-<li>
-    <a href="./public/birthday-invite.html">Antrasis bandymas, kvietimas į vakarėlį</a>
-</li>
-<p>Paspaudę nuorodą aukščiau pateksite ir paveiksliuke matomą puslapį</p>
-<a href="./public/birthday-invite.html">
-    <img src="./assets/images/Kvietimas.png" height="150">
-</a>
-</ul>
-<ul><li><a href="./public/about.html">Apie mane</a></li><li><a href="./public/contact.html"> Susisiekime</a></ul></li>
+    <main>
+    <div style ="
+    background-image: linear-gradient(to bottom right, rgb(125, 26, 238), rgb(218, 45, 45)); font-family: Monospace; 
+    color: rgb(200, 229, 247);">
+        <h1>Laikas tapti programuotoju!</h1>
+        <h3>Apžiūrėkime ką iki šiol jau sūkuriau, tikėtis daug neverta. Tai tik vienos dienos mokslo rezultatas. </h3>
+        </div>
+        <div style ="
+        display: inline-block; 
+        width: 100%; 
+        background-image: linear-gradient(to bottom right, rgb(125, 26, 238), rgb(218, 45, 45));
+        margin-top: 50px;">
+        <div style="
+        width: 30%; 
+        float: left; ">
+                    <a  style = "
+                    font-family: Arial, Helvetica, sans-serif; 
+                    background-color: rgb(132, 114, 150) ;
+                    border-style: solid; 
+                    border-width: 12px; 
+                    border-color:rgb(132, 114, 150);
+                    font-size: 25px;color: white;
+                    text-decoration: none"  href="./public/movie-ranking.html">Pirmasis bandymas, mėgstamiausi filmai</a>
+                    <p>Paspaudę nuorodą aukščiau pateksite ir paveiksliuke matomą puslapį</p>
+                    <a href="./public/movie-ranking.html">
+                    <img src="./assets/images/Filmai.png" height="250">
+                    </a>
+        </div><div>
+                
+                    <a style = "
+                    font-family: Arial, Helvetica, sans-serif; 
+                    background-color: rgb(132, 114, 150) ;
+                    border-style: solid; 
+                    border-width: 12px; 
+                    border-color:rgb(132, 114, 150);
+                    font-size: 25px;color: white;text-decoration: none" href="./public/birthday-invite.html">Antrasis bandymas, kvietimas į vakarėlį</a>
+                            <p>Paspaudę nuorodą aukščiau pateksite ir paveiksliuke matomą puslapį</p>
+                            <a href="./public/birthday-invite.html">
+                            <img src="./assets/images/Kvietimas.png" height="250">
+                            </a>
+                </div></div>
 
+<a href="./public/about.html">Apie mane</a><br><a href="./public/contact.html"> Susisiekime</a>
+</main>
  </body>
  </html>
+
+
+
+
+ <!--
+
+<body style="background-color: rgb(112, 202, 112);">
+    <main style="background-color: whitesmoke; width: 50%;margin-top: 150px;margin-left: 25%;>
+template:
+MATAVIMO vienetai:
+ -absoliutinis skaitines reiksmes: mm, cm, px, rem
+ -reliatyvios skaitines reiksmes: %, vem
+
+stiliaus-savybes-pavadinimas: jos reiksme;
+style ="background-color: rgb(106, 114, 182);" ||fono spalva
+color: black; ||teksto spalva
+font-size: 8px; ||srifto dydis 
+font-size: 8%; ||srifto dydis 
+font-size: 8rem; ||srifto dydis 
+font-weight: normal arba fold;
+font-style: normal arba italic; ??
+text-style: normal arba italic; ??
+font-family: arial; sriftas
+text-decoration: none;
+text-decoration: underline;
+text-transform: lowercase uppercase ir capitalize; capitalize kiekvieno zodzio pirma padaro didziaja
+
+
+width: 100%; gali buto auto
+height: 100%; procentais neveiks
+
+
+margin: 0; atstumas iki aplinkinio elemento
+margin: 20px; atstumas iki aplinkinio elemento
+margin-top: 20px; atstumas iki aplinkinio elemento
+margin-left: 20px; top left right bottom
+
+padding:0; elemento issiputimas savyje nuo savo turinio iki elemento krastu
+
+border-width: 1px;
+border-style: solid;
+border-style: dotten;
+border-style: dashed;
+border-color: red;
+border: 1px solid red;
+
+border-radius: 0; kampu uzapvalinimas
+border-radius: 20%; kampu uzapvalinimas kiausinis
+border-radius: 10px; kampu uzapvalinimas stadionas
+
+display: none; yra reikalu? elementas visiskai nematomas
+display: block; blokinis vertikalus deliojimas
+display: inline; elgiasi kaip tekstas. nereaguoja i height ir width
+display: inline-block; bloko ir inline miksas !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+float: left;    priverstinis elemento stumimas pasirinka kryptimi iki artimiausio iki elemento
+float: right;
+
+-->
